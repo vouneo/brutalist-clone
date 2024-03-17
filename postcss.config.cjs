@@ -10,4 +10,9 @@ const config = {
 	]
 };
 
-module.exports = config;
+module.exports = {
+	plugins: {
+	  tailwindcss: {},
+	  autoprefixer: {},
+	}
+  };
